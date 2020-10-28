@@ -7,6 +7,6 @@
 
 # <b>Welcome!</b>
 
-This site is used to record the details of HBTVC 20 Computer Application Technology, and upload some interesting things later.
+This site is used to record the details of <b><u>HBTVC 20 Computer Application Technology</u> Class</b>, and upload some interesting things later.
 
 Coming soon...
