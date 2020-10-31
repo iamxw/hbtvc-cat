@@ -20,7 +20,6 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -113,10 +112,6 @@ input, select, textarea {
 
 /* Type */
 
-	html {
-		font-size: 18pt;
-	}
-
 		@media screen and (max-width: 1680px) {
 
 			html {
@@ -155,8 +150,6 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -186,7 +179,6 @@ input, select, textarea {
 	}
 
 		p.major {
-			font-size: 1.25rem;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
