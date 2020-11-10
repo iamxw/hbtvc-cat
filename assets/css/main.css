@@ -167,8 +167,6 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		line-height: 1.375;
 		letter-spacing: -0.05em;
 		margin: 0 0 1rem 0;
 	}
@@ -2864,41 +2862,6 @@ input, select, textarea {
 			ul.icons li:last-child {
 				padding-right: 0;
 			}
-
-/* Section/Article */
-
-	section.special, article.special {
-		text-align: center;
-	}
-
-	header p {
-		position: relative;
-		margin: -0.65rem 0 1.5rem 0;
-		font-style: italic;
-	}
-
-	header h1 + p {
-		font-size: 1.375rem;
-	}
-
-	header h2 + p {
-		font-size: 1.25rem;
-	}
-
-	header h3 + p {
-		font-size: 1.1rem;
-	}
-
-	header h4 + p,
-	header h5 + p,
-	header h6 + p {
-		font-size: 0.9rem;
-	}
-
-	header p {
-		color: rgba(0, 0, 0, 0.75);
-	}
-
 /* Table */
 
 	.table-wrapper {
