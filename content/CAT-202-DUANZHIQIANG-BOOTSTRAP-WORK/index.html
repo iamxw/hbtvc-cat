@@ -1,0 +1,306 @@
+<!--
+    使用 Bootstrap v5.1.3 驱动，
+    准备整点先进的东西，别出 BUG 就好 ~
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohandar·Leon - UI Design Skill</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/avatar/avatar.jpg">
+</head>
+<body>
+<nav id="nav-bar" class="navbar navbar-expand-md navbar-dark fixed-top">
+    <!--LOGO-->
+    <a href="#">
+        <img class="img-fluid" id="avatar-config" src="img/avatar/avatar.jpg" alt="" width="40px" height="40px">
+        <h5 style="border:none;text-decoration: none;color: #4e555b" id="title-config" class="d-inline ml-2 mt-4"><b>UI Design Skill</b></h5>
+    </a>
+    <!--汉堡按钮-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mr-auto ml-3">
+            <li class="nav-item active">
+                <a href="index.html" class="nav-link text-black-50">首页</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link text-black-50">关于</a>
+            </li>
+        </ul>
+        <form class="form-inline">
+            <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#myModal">登录</button>
+        </form>
+    </div>
+</nav>
+
+
+<!-模态框-->
+<div class="modal carousel-fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- 模态框头部 -->
+            <div class="modal-header">
+                <h4 class="modal-title"><b>现在登录，体验更佳</b></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- 模态框主体 -->
+            <div class="modal-body">
+                <form action="#">
+                    <input type="text" class="form-control my-3" placeholder="您的用户名">
+                    <input type="password" class="form-control my-3" placeholder="您的密码">
+                    <button type="button" class="btn btn-primary btn-block my-3">登录</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--轮播图-->
+<div id="demo" class="carousel slide mt-5 margintop" data-ride="carousel">
+    <!-- 指示符 -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <!-- 轮播图片 -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img style="cursor: pointer" src="img/1.jpg" alt="banner" class="img-fluid w-100">
+        </div>
+        <div class="carousel-item">
+            <img style="cursor: pointer" src="img/2.jpg" alt="banner" class="img-fluid w-100">
+        </div>
+        <div class="carousel-item">
+            <img style="cursor: pointer" src="img/3.jpg" alt="banner" class="img-fluid w-100">
+        </div>
+    </div>
+    <!-- 左右切换按钮 -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+<!--技巧-->
+<div class="trend-skill mb-4">
+    <div class="container">
+        <h2 class="index-h2 mt-4 text-center"><b>UI 设计窍门</b></h2>
+        <p class="index-h2-p mb-5 mt-3 text-center">筛选篇 | 提升用户决策效率的筛选控件</p>
+        <!--信息区域-->
+        <div class="row">
+            <div class="skill col-md-6 mb-4">
+                <div class="media">
+                    <img style="border-radius: 100vh" src="img/tab-1.png" alt=""/>
+                    <div class="media-body ml-2">
+                        <h5 class="mb-3 text-truncate">现实生活中的筛选</h5>
+                        <p class="text-muted mb-2 text-justify">
+                            在日常生活中，我们天天都在跟筛选打交道。设想一下，当你走进超市，在没有任何分类指示的情况下，看到琳琅满目的商品是否会不知所措，答案是肯定的，且不论超市规模大小、商品的多少，相信没有任何一个人愿意在不清楚的情况下花时间去找一个很可能不存在的商品，即便这点时间会很短。
+                            <br>
+                            道理还没说完，大家都感觉自己很懂，可依然逃脱不了如今在各种形形色色的应用中找不到自己需要的功能而苦恼，那么这些应用又是谁设计的呢？答案就是「大多数人」。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill col-md-6 mb-4">
+                <div class="media">
+                    <img style="border-radius: 100vh" src="img/tab-2.png" alt=""/>
+                    <div class="media-body ml-2">
+                        <h5 class="mb-3 text-truncate">筛选功能的重要性</h5>
+                        <p class="text-muted mb-2 text-justify">
+                            在我们设计筛选控件之前，需要清楚了解什么是筛选，东施效颦不是什么明智之举。
+                            筛选，即用户根据自身需求、通过一个或多个特定条件，在已有的内容中快速找到满足自己当前条件的信息，
+                            单独呈现的同时、并将未满足条件的信息暂时作隐藏处理，以便用户完成自己的目标需求。
+                            <br>
+                            而搜索则是用户通过明确的目标主动进行精准查找，要么直接找到自己想要的结果、要么对结果不满意，搜索出的结果在产品侧「模糊」、用户侧需要「精准」。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill col-md-6 mb-4">
+                <div class="media">
+                    <img style="border-radius: 100vh" src="img/tab-3.png" alt=""/>
+                    <div class="media-body ml-2">
+                        <h5 class="mb-3 text-truncate">系统定义筛选需求</h5>
+                        <p class="text-muted mb-2 text-justify">
+                            方向性的筛选：用户通过系统提供的多种类型进行频道切换，还会存在多少子级，可定义为一级筛选。例如订单列表（待支付/待发货/待收货/待评价），优惠券（未使用/已使用/已过期）等，用户从已有的类型列表中选择自己所需。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill col-md-6 mb-4">
+                <div class="media">
+                    <img style="border-radius: 100vh" src="img/tab-4.png" alt=""/>
+                    <div class="media-body ml-2">
+                        <h5 class="mb-3 text-truncate">用户自定义筛选需求</h5>
+                        <p class="text-muted mb-2 text-justify">
+                            精细化筛选：当系统已提供方向性的筛选，用户依然可从分类筛选出的结果中进一步细化。例如针对单个类型的商品列表自定义价格区间、发货地、品牌...等，也可称之为二级次筛选，相比一级筛选，其筛选的结果会更精细化，也更接近于用户的真实需求。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--风格展示区-->
+<div class="trend-style bg-light py-3">
+    <div class="container">
+        <h2 class="index-h2 mt-4 text-center"><b>UI 设计风格</b></h2>
+        <p class="index-h2-p mb-5 mt-3 text-center">想学习 UI 设计？下面这些可能适合你</p>
+        <!--信息区域-->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="img/source-img/1.webp" class="card-img-top img-fluid" alt=""/>
+                    <div class="card-body">
+                        <p class="card-text">涨知识，人人要懂的交互设计</p>
+                        <div class="d-flex justify-content-end">
+                            <a href="#" class="btn btn-outline-danger"><span class="bi bi-arrow-right-circle">&nbsp;更多</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="img/source-img/2.webp" class="card-img-top img-fluid" alt=""/>
+                    <div class="card-body">
+                        <p class="card-text">筛选篇 | 提升用户决策效率的筛选控件！</p>
+                        <div class="d-flex justify-content-end">
+                            <a href="#" class="btn btn-outline-primary"><span class="bi bi-arrow-right-circle">&nbsp;更多</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="img/source-img/3.webp" class="card-img-top img-fluid" alt=""/>
+                    <div class="card-body">
+                        <p class="card-text">【“座”下喝茶】视觉品牌设计</p>
+                        <div class="d-flex justify-content-end">
+                            <a href="#" class="btn btn-outline-dark"><span class="bi bi-arrow-right-circle">&nbsp;更多</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="img/source-img/4.png" class="card-img-top img-fluid" alt=""/>
+                    <div class="card-body">
+                        <p class="card-text">设计开源倡议书</p>
+                        <div class="d-flex justify-content-end">
+                            <a href="#" class="btn btn-outline-success"><span class="bi bi-arrow-right-circle">&nbsp;更多</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="img/source-img/5.png" class="card-img-top img-fluid" alt=""/>
+                    <div class="card-body">
+                        <p class="card-text">全面了解下拉菜单</p>
+                        <div class="d-flex justify-content-end">
+                            <a href="#" class="btn btn-outline-info"><span class="bi bi-arrow-right-circle">&nbsp;更多</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="img/source-img/6.png" class="card-img-top img-fluid" alt=""/>
+                    <div class="card-body">
+                        <p class="card-text">那些优秀的设计小细节</p>
+                        <div class="d-flex justify-content-end">
+                            <a href="#" class="btn btn-outline-primary"><span class="bi bi-arrow-right-circle">&nbsp;更多</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--UI 设计师专区-->
+<div id="contact-ui-designer" class="trend-new">
+    <div class="container">
+        <h2 class="index-h2 mt-4 text-center">UI 设计师</h2>
+        <p class="index-h2-p mb-5 mt-3 text-center">有什么不懂的地方吗？您可以和下面这些设计师取得联系，看看他们有什么好方法</p>
+        <div class="publish">
+            <div class="row">
+                <div class="col-sm-3 mt-2 d-none d-sm-block">
+                    <img style="border-radius: 100vh" src="img/new-1.jpg" alt="" class="img-fluid"/>
+                </div>
+                <div class="col-sm-9">
+                    <h3>Mohandar·Leon</h3>
+                    <p class="text-muted d-none d-sm-block">资深 UI 设计师</p>
+                    <p class="d-sm-block">
+                        拥有 5 年的 UI 设计经验，设计出来的作品都让人满意
+                    </p>
+                    <p class="text-muted">座右铭：要想快速升级，必须越级打怪。</p>
+                    <p class="text-muted d-none d-sm-block">
+                        <br><br>
+                        联系方式
+                        <br>
+                        <span><i class="bi bi-telephone"></i>：151*******6</span>
+                    </p>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col-sm-3 mt-2 d-none d-sm-block">
+                    <img style="border-radius: 100vh" src="img/new-2.jpg" alt="" class="img-fluid"/>
+                </div>
+                <div class="col-sm-9">
+                    <h3>Mohandar·Leon</h3>
+                    <p class="text-muted d-none d-sm-block">资深 UI 设计师</p>
+                    <p class="d-sm-block">
+                        拥有 5 年的 UI 设计经验，设计出来的作品都让人满意
+                    </p>
+                    <p class="text-muted">座右铭：要想快速升级，必须越级打怪。</p>
+                    <p class="text-muted d-none d-sm-block">
+                        <br><br>
+                        联系方式
+                        <br>
+                        <span><i class="bi bi-telephone"></i>：151*******6</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer class="bg-primary text-light py-4 text-center">
+    <div class="container">
+        <h3>合作伙伴</h3>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="#"><i class="bi bi-instagram text-white" style="font-size: 16px;"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="bi bi-youtube text-white" style="font-size: 16px;"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="bi bi-twitter text-white" style="font-size: 16px;"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="bi bi-facebook text-white" style="font-size: 16px;"></i></a>
+            </li>
+        </ul>
+        <p>企业培训 | 合作事宜 | 版权投诉</p>
+        <p>应用 202 段志强</p>
+    </div>
+</footer>
+
+</body>
+<script src="lib/bootstrap/js/jquery.min.js"></script>
+<script>
+
+</script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

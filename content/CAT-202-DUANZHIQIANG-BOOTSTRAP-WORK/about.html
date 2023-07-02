@@ -1,0 +1,172 @@
+<!--
+    使用 Bootstrap v5.1.3 驱动，
+    准备整点先进的东西，别出 BUG 就好 ~
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohandar·Leon - UI Design Skill - About</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="icon" href="img/avatar/avatar.jpg">
+</head>
+<body>
+<nav id="nav-bar" class="navbar navbar-expand-md navbar-dark fixed-top">
+    <!--LOGO-->
+    <a href="#">
+        <img class="img-fluid" id="avatar-config" src="img/avatar/avatar.jpg" alt="" width="40px" height="40px">
+        <h5 id="title-config" class="d-inline ml-2 mt-4"><b>关于我</b></h5>
+    </a>
+    <!--汉堡按钮-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mr-auto ml-3">
+            <li class="nav-item active">
+                <a href="index.html" class="nav-link">首页</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">关于我</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--轮播图-->
+<div id="demo" class="carousel slide mt-5 margintop" data-ride="carousel">
+    <!-- 轮播图片 -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img style="cursor: pointer" src="img/about.gif" alt="banner" class="img-fluid w-100">
+        </div>
+    </div>
+</div>
+
+<!--技巧-->
+<div class="trend-skill mb-4">
+    <div class="container">
+        <h2 class="index-h2 mt-4 text-center"><b>个人信息</b></h2>
+        <p class="index-h2-p mb-5 mt-3 text-center">一名学生，来自河北省张家口市</p>
+        <!--信息区域-->
+        <div class="row">
+            <div class="skill col-md-6 mb-4">
+                <div class="media">
+                    <div class="media-body ml-2">
+                        <h5 class="mb-3 text-truncate"><b>爱好呢？</b></h5>
+                        <p class="text-muted mb-2 text-justify">
+                            平常没事干也就写写代码啥的，要么就是乱折腾（折腾电脑方面的东西）😂。
+                            没事就和沙雕同学和沙雕网友聊天，emm，学习还是要学习的，学习成绩个人觉得还行吧。
+                            也爱捣鼓计算机硬件，服务器（Linux 服务器），捣鼓 Windows 和 Linux 等，
+                            也算是个伪技术宅吧 😝。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill col-md-6 mb-4">
+                <div class="media">
+                    <div class="media-body ml-2">
+                        <h5 class="mb-3 text-truncate"><b>平常玩什么游戏？</b></h5>
+                        <p class="text-muted mb-2 text-justify">
+                            偶尔玩玩 Grand Theft Auto V 和 Minecraft，
+                            <br>
+                            Red Dead Redemption（荒野大镖客·救赎）2也在玩，死亡搁浅偶尔玩玩，
+                            <br>
+                            还有其他很多游戏，
+                            <br>
+                            但我不是臭打游戏的 😂。
+                    </div>
+                </div>
+            </div>
+            <div class="skill col-md-6 mb-4">
+                <div class="media">
+                    <div class="media-body ml-2">
+                        <h5 class="mb-3 text-truncate"><b>喜欢听啥音乐？</b></h5>
+                        <p class="text-muted mb-2 text-justify">
+                            音乐爱听国外电子音乐系列，哪国的都有，
+                            <br>
+                            当然，国内音乐我也听
+                            我目前只用网易云音乐，如果想听可以和我要。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill col-md-6 mb-4">
+                <div class="media">
+                    <div class="media-body ml-2">
+                        <h5 class="mb-3 text-truncate"><b>自我介绍？</b></h5>
+                        <p class="text-muted mb-2 text-justify">
+                            学生党，来自河北省的一座四线小城市。
+                            <br>
+                            <del>是个死宅</del>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--UI 设计师专区-->
+<div style="background: #f5f5f5" id="contact-ui-designer" class="trend-new">
+    <br><br>
+    <div class="container">
+        <h2 class="index-h2 mt-4 text-center"><b>我的联系方式</b></h2>
+        <p class="index-h2-p mb-5 mt-3 text-center">下面是我的联系方式，可随时联系我</p>
+        <div class="publish">
+            <div class="row">
+                <div class="col-sm-3 mt-2 d-none d-sm-block">
+                    <img style="border-radius: 100vh" src="img/new-1.jpg" alt="" class="img-fluid"/>
+                </div>
+                <div class="col-sm-9">
+                    <h3>Mohandar·Leon</h3>
+                    <p class="text-muted d-none d-sm-block">资深 UI 设计师</p>
+                    <p class="d-sm-block">
+                        拥有 5 年的 UI 设计经验，设计出来的作品都让人满意
+                    </p>
+                    <p class="text-muted">座右铭：要想快速升级，必须越级打怪。</p>
+                    <p class="text-muted d-none d-sm-block">
+                        <br>
+                        联系方式
+                        <br>
+                        <span><i class="bi bi-mailbox2"></i>：2145136703@qq.com</span>
+                        <br>
+                        <span><i class="bi bi-telephone"></i>：151*******6</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer class="bg-primary text-light py-4 text-center">
+    <div class="container">
+        <h3>合作伙伴</h3>
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="#"><i class="bi bi-instagram text-white" style="font-size: 16px;"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="bi bi-youtube text-white" style="font-size: 16px;"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="bi bi-twitter text-white" style="font-size: 16px;"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="bi bi-facebook text-white" style="font-size: 16px;"></i></a>
+            </li>
+        </ul>
+        <p>企业培训 | 合作事宜 | 版权投诉</p>
+        <p>应用 202 段志强</p>
+    </div>
+</footer>
+
+</body>
+<script src="lib/bootstrap/js/jquery.min.js"></script>
+<script>
+
+</script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

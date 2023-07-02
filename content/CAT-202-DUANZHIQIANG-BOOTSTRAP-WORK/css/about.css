@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Roboto VF';
+    src: url("../lib/fonts/RobotoVF.ttf");
+}
+
+@font-face {
+    font-family: HarmonyOSHans;
+    src: url("../lib/fonts/HarmonyOSHans.ttf");
+}
+
+body {
+    font-family: 'Roboto VF', 'HarmonyOSHans', sans-serif;
+}
+
+.btn {
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#avatar-config {
+    border-radius: 40px;
+    transition: all 1200ms;
+    margin-top: -5px;
+}
+
+#avatar-config:hover {
+    transform: rotate(360deg);
+}
+
+#title-config {
+    text-underline: none !important;
+    color: white;
+    padding-top: 12px;
+    line-height: 40px;
+}
+
+#nav-bar {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    transition: all 500ms;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2)
+}
+
+#search-something {
+    border-radius: 100px;
+}
+
+#myModal {
+    backdrop-filter: blur(3px) saturate(170%);
+    transition: all 700ms !important;
+}
+
+.modal-content {
+    border-radius: 10px !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 10rem;
+}
+
+.carousel-inner {
+    padding-top: 9px;
+}
+
+#nav-bar:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#contact-ui-designer {
+    padding-bottom: 60px;
+}
