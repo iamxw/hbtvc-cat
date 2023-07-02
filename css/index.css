@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+
+* {
+    font-family: "Roboto","Segoe UI Variable Display","HarmonyOSHans","Noto Sans SC",sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: none !important;
+}
+
+#bgbg {
+    background-color: #343a40;
+    border-radius: 0;
+    color: white;
+}
