@@ -1,0 +1,539 @@
+/* 鸿蒙系统字体 */
+@font-face {
+    font-family: HarmonyOSHans;
+    src: url("../media/fonts/HarmonyOSHans.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../media/fonts/RobotoVF.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto","HarmonyOSHans", "Microsoft YaHei", sans-serif;
+    cursor: url("../media/cursor/pointer.cur"),auto;
+}
+
+body {
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+/*#Ad-bar {*/
+/*    width: 100%;*/
+/*    height: 72px;*/
+/*    background-color: #65a15a;*/
+/*    line-height: 72px;*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*    font-size: small;*/
+/*    transition: all 200ms;*/
+/*    animation: tips ease-in-out 2400ms;*/
+/*}*/
+
+/*@keyframes tips {*/
+/*    0% {*/
+/*        background-color: #3c6432;*/
+/*    }*/
+/*    25% {*/
+/*        background-color: #65a15a;*/
+/*    }*/
+/*    50% {*/
+/*        background-color: #3C6432;*/
+/*    }*/
+/*    65%{*/
+/*        background-color: #a9de9c;*/
+/*    }*/
+/*    100% {*/
+/*        background-color: #65a15a;*/
+/*    }*/
+/*}*/
+
+/*#prvcytrm {*/
+/*    text-decoration: none;*/
+/*    color: beige;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*#CloseAdBar {*/
+/*    background-color: #65a15a;*/
+/*    border-radius: 5px;*/
+/*    float: right;*/
+/*    margin-top: -48px;*/
+/*    margin-right: 16px;*/
+/*    border: 1px solid white;*/
+/*    padding: 2px 16px 2px 16px;*/
+/*    color: white;*/
+/*    transition: all 200ms;*/
+/*    animation: tips ease-in-out 2400ms;*/
+/*}*/
+
+/*#CloseAdBar:hover {*/
+/*    background-color: white;*/
+/*    color: #65a15a;*/
+/*    cursor: url("../media/cursor/link.cur"),auto;*/
+/*}*/
+
+#Nav1 {
+    position: relative;
+    width: 100%;
+    height: 128px;
+    margin-top: 2px;
+}
+
+#teamo-logo {
+    position: relative;
+    margin-left: 50%;
+    left: -480px;
+    margin-top: 36px;
+}
+
+#SearchBar {
+    caret-color: #487741;
+    position: absolute;
+    border-radius: 36px 0 0 36px;
+    border: 2px solid #65a15a;
+    height: 36px;
+    width: 320px;
+    margin-top: -36px;
+    padding-left: 12px;
+    margin-left: -460px;
+    outline: none;
+}
+
+#SearchBarSubmit {
+    position: absolute;
+    width: 72px;
+    height: 36px;
+    border-radius: 0 36px 36px 0;
+    border: 0;
+    background-color: #65a15a;
+    color: white;
+    outline: none;
+    float: right;
+    margin-left: -160px;
+    margin-top: -36px;
+}
+
+#SearchBarSubmit:hover {
+    background-color: #487741;
+}
+
+#SearchContent {
+    display: inline-block;
+    margin-left: 360px;
+}
+
+#Search {
+    display: inline-block;
+    line-height: 36px;
+}
+
+#Nav1 #Login {
+    display: inline;
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    margin-top: 46px;
+    margin-right: 260px;
+    line-height: 48px;
+}
+
+#Nav1 #Login:hover {
+    color: #487741;
+}
+
+#options {
+    position: relative;
+    margin-left: 50%;
+    margin-bottom: -128px;
+}
+
+/*导航条*/
+#BigNavigation {
+    background-color: #65a15a;
+    height: 50px;
+}
+
+#navi {
+    background-color: #65a15a;
+    height: 50px;
+    width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navi ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    left: 40px;
+}
+
+#navi ul li {
+    float: left;
+}
+
+#navi ul li a {
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    width: 180px;
+    transition: all 700ms;
+}
+
+#navi ul li a:hover {
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4c7a42;
+    /*border-radius: 50px;*/
+}
+
+#navi ul li .index {
+    background-color: #487741;
+    height: 50px;
+    width: 180px;
+    margin-left: 5px;
+}
+
+#banner {
+    position: relative;
+    width: 770px;
+    height: 600px;
+    background: url("../images/1.jpg") no-repeat;
+    /*border: 1px solid red;*/
+    margin-left: 128px;
+    margin-top: 64px;
+}
+
+#banner .banner_pic .pic {
+    display: none;
+}
+#banner .banner_pic .current {
+    display: block;
+}
+
+#banner ol {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    list-style: none;
+    margin-left: -36px;
+}
+
+#banner ol .but {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #65a15a;
+    border-radius: 50%;
+    margin-right: 12px;
+    text-align: center;
+    line-height: 22px;
+    background: #fff;
+    color: #4c7a42;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+#banner ol li {
+    cursor: url("../media/cursor/link.cur"),auto;
+}
+
+#banner ol .current {
+    color: #fff;
+    background: #4c7a42;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #65a15a;
+    border-radius: 50%;
+    margin-right: 12px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.HangPlants {
+    position: absolute;
+    background: url("../images/hang-plants.jpg") no-repeat;
+    width: 380px;
+    height: 300px;
+    padding-left: 32px;
+    padding-top: 40px;
+    float: right;
+    margin-top: -600px;
+    margin-right: -600px;
+    right: 50%;
+}
+
+#ByThisItem2 {
+    position: absolute;
+    margin-top: 30px;
+    width: 128px;
+    height: 36px;
+    border: none;
+    border-radius: 36px;
+    background-color: #487741;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#ByThisItem2 a {
+    text-decoration: none;
+    color: white;
+    cursor: url("../media/cursor/link.cur"),auto;
+}
+
+#ByThisItem2:hover {
+    background-color: #65a15a;
+    border-radius: 6px;
+    cursor: url("../media/cursor/link.cur"),auto;
+
+}
+
+#orchid {
+    position: absolute;
+    background: url("../images/orchid.jpg") no-repeat;
+    width: 380px;
+    height: 300px;
+    float: right;
+    margin-right: -565px;
+    right: 50%;
+    margin-top: -280px;
+}
+
+#orchid h3 {
+    margin-left: 32px;
+    margin-top: 64px;
+}
+
+#orchid .description {
+    margin-left: 32px;
+}
+
+#orchid button {
+    margin-left: 32px;
+    margin-top: 18px;
+    width: 128px;
+    height: 36px;
+    border-radius: 36px;
+    background-color: #487741;
+    border: none;
+    cursor: url("../media/cursor/link.cur"),auto;
+}
+
+#orchid button a {
+    text-decoration: none;
+    color: white;
+    cursor: url("../media/cursor/link.cur"),auto;
+}
+
+#orchid button:hover {
+    background-color: #65a15a;
+    border-radius: 6px;
+    transition: all 300ms;
+}
+
+
+
+#today-ordered h2 {
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-family: 'HarmonyOSHans Black', serif;
+    margin-right: 256px;
+}
+
+#today-ordered-contents {
+    position: relative;
+    left: 50%;
+    margin-left: -631.5px;
+}
+
+#today-ordered-contents ul {
+    position: absolute;
+}
+
+#today-ordered-contents ul li {
+    width: 260px;
+    height: 512px;
+    /*margin: 0 auto;*/
+    margin-right: 96px;
+    list-style: none;
+    border: 2px solid #ccc;
+    float: left;
+    text-align: center;
+}
+
+#today-ordered-contents ul li img {
+    width: 100%;
+}
+
+.time-day {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    padding: 10px;
+    transition: all 250ms;
+}
+
+.time-day:hover {
+    border-radius: 8px;
+    background-color: #222222;
+
+}
+
+.detail-name {
+    padding-top: 16px;
+}
+
+#today-ordered-contents ul li button {
+    border: none;
+    border-radius: 64px;
+    background-color: #4c7a42;
+    padding: 16px 32px 16px 32px;
+    color: white;
+    margin-top: 16px;
+    transition: all 300ms;
+}
+
+#today-ordered-contents ul li button:hover {
+    border-radius: 5px;
+    background-color: #e98400;
+    cursor: url("../media/cursor/link.cur"),auto;
+    box-shadow: 1px 1px 7px #b36600;
+    font-weight: bold;
+
+}
+
+#today-ordered-contents ul li img {
+    width: 260px;
+    height: 260px;
+    transition: all 700ms;
+ }
+
+#today-ordered-contents ul li img:hover {
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.7;
+
+}
+
+#activities {
+    position: relative;
+    width: 1170px;
+    height: 300px;
+    background-color: #ccc;
+    background-image: url("../images/banner-home-15.jpg");
+    border-radius: 10px;
+    margin-bottom: 64px;
+    margin-left: 50%;
+    left: -720px;
+}
+
+#activities #activities-text {
+    text-align: center;
+}
+
+#activities #activities-text h2 {
+    padding-top: 64px;
+}
+
+#activities #activities-text p {
+    padding-top: 12px;
+}
+
+#activities #activities-buttons {
+    padding-left: 50%;
+    margin-left: -128px;
+    margin-top: 64px;
+}
+
+#activities #activities-buttons #visit-store:hover {
+    border-radius: 6px;
+    transition: all 300ms;
+    cursor: url("../media/cursor/link.cur"),auto;
+}
+
+#activities #activities-buttons #goto-order-chart:hover {
+    border-radius: 6px;
+    transition: all 300ms;
+    cursor: url("../media/cursor/link.cur"),auto;
+}
+
+#activities #visit-store {
+    border: none;
+    border-radius: 64px;
+    background-color: #4c7a42;
+    padding: 16px 32px 16px 32px;
+    color: white;
+}
+
+#activities #goto-order-chart {
+    color: white;
+    border: none;
+    border-radius: 64px;
+    background-color: #4c7a42;
+    padding: 16px 32px 16px 32px;
+}
+
+#sales-text {
+    width: 100%;
+    height: 256px;
+    background-color: #487741;
+    color: white;
+    text-align: center;
+}
+
+#sales-text #MaterialYouBox {
+    background: url("../images/flower.svg") no-repeat;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    transition: all 1000ms;
+}
+
+#sales-text #MaterialYouBox #ShoppingChart {
+    padding-top: 30px;
+    transition: all 1000ms;
+}
+
+#MaterialYouBox:hover {
+    transform: rotate(360deg);
+
+}
+
+#MaterialYouBox:hover #ShoppingChart {
+    transform: rotate(0deg);
+
+
+}
+
+.copyright {
+    width: 100%;
+    height: 128px;
+    text-align: center;
+    line-height: 128px;
+    color: #cccccc;
+}

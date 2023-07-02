@@ -1,0 +1,173 @@
+<!--
+    此页面依靠BUG运行，请勿修改，
+    房屋塌了后果自负
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>绿植电商平台</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="icon" href="icons/index.html.png">
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+<!--页眉-->
+<div id="Nav1">
+    <img id="teamo-logo" src="images/logo.png" alt="TEAMO's Logo"/>
+    <div id="SearchContent">
+        <input id="SearchBar" type="search" placeholder="搜索你想搜的（ 最长限制 20 字 )" maxlength="20">
+        <input id="SearchBarSubmit" type="submit">
+    </div>
+</div>
+<!--正式内容-->
+<div id="BigNavigation">
+    <div id="navi">
+        <ul>
+            <li>
+                <div class="index"><a href="#">⇶&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所有商品</a></div>
+            </li>
+            <li><a href="#">拍卖</a></li>
+            <li><a href="#">博客</a></li>
+            <li><a href="#">关于</a></li>
+            <li><a href="register.html"><b>注册/登录</b></a></li>
+            <li><a href="question.html"><b>问卷调查</b></a></li>
+        </ul>
+    </div>
+</div>
+
+<div style="box-sizing: border-box;margin-left: 300px">
+    <!--循环播放的-->
+    <div id="banner" style="margin-left: 50%;left: -750px">
+        <div class="banner_pic" id="banner_pic">
+            <div class="current"><img src="images/1.jpg" alt=""/></div>
+            <div class="pic"><img src="images/2.jpg" alt=""/></div>
+            <div class="pic"><img src="images/3.jpg" alt=""/></div>
+            <div class="pic"><img src="images/4.jpg" alt=""/></div>
+        </div>
+        <ol id="button">
+            <li class="current"></li>
+            <li class="but"></li>
+            <li class="but"></li>
+            <li class="but"></li>
+        </ol>
+    </div>
+
+    <div>
+        <!--悬挂植物-->
+        <div class="HangPlants" >
+            <h3 class="title">悬挂植物</h3>
+            <div class="description">既节约空间，又变的<br>更加有生机。<br><br>您不妨来买一盆，<br>来增添家里的活力。</div>
+            <button id="ByThisItem2"><a href="Item-details/detail.html">一睹为快</a></button>
+        </div>
+        <!--兰花-->
+        <div id="orchid">
+            <h3 class="title">兰花</h3>
+            <div class="description">高洁、典雅。<br><br>气如兰兮长不改，<br>心若兰兮终不移</div>
+            <button id="Buy-orchid"><a href="#">一睹为快</a></button>
+        </div>
+    </div>
+    <br>
+    <!--今日已卖出-->
+    <div id="today-ordered">
+        <h2>今日已卖出</h2>
+        <div id="today-ordered-contents">
+            <ul>
+                <li>
+                    <img src="images/product-item-21.jpg" alt="欧洲泛棕榈"/>
+                    <div id="countDown-1">
+                        <div class="time-day">
+                            <B>距秒杀结束还剩</B><br>
+                            <span id="day">0</span>
+                            <span>天</span>
+                            <span id="hour">0</span>
+                            <span>小时</span>
+                            <span id="minute">0</span>
+                            <span>分</span>
+                            <span id="second">0</span>
+                            <span>秒</span>
+                        </div>
+                        <p class="detail-name"><b>欧洲泛棕榈</b></p>
+                    </div>
+                    <button>立即抢购</button>
+                    <br><br>
+                    <p>
+                        <del>CNY ￥45</del>&nbsp;&nbsp;<span style="color: #4c7a42"><b>CNY ￥30</b></span></p>
+                </li>
+                <li>
+                    <img src="images/product-item-6.jpg" alt="欧洲泛棕榈"/>
+                    <div id="countDown-2">
+                        <div class="time-day">
+                            <B>距秒杀结束还剩</B><br>
+                            <span id="day-2">0</span>
+                            <span>天</span>
+                            <span id="hour-2">0</span>
+                            <span>小时</span>
+                            <span id="minute-2">0</span>
+                            <span>分</span>
+                            <span id="second-2">0</span>
+                            <span>秒</span>
+                        </div>
+                        <p class="detail-name"><b>哑手杖</b></p>
+                    </div>
+                    <button>立即抢购</button>
+                    <br><br>
+                    <p>
+                        <del>CNY ￥45</del>&nbsp;&nbsp;<span style="color: #4c7a42"><b>CNY ￥30</b></span></p>
+                </li>
+                <li>
+                    <img src="images/product-item-2.jpg" alt="欧洲泛棕榈"/>
+                    <div id="countDown-3">
+                        <div class="time-day">
+                            <B>距秒杀结束还剩</B><br>
+                            <span id="day-3">0</span>
+                            <span>天</span>
+                            <span id="hour-3">0</span>
+                            <span>小时</span>
+                            <span id="minute-3">0</span>
+                            <span>分</span>
+                            <span id="second-3">0</span>
+                            <span>秒</span>
+                        </div>
+                        <p class="detail-name"><b>金绿萝</b></p>
+                    </div>
+                    <button>立即抢购</button>
+                    <br><br>
+                    <p>
+                        <del>CNY ￥45</del>&nbsp;&nbsp;<span style="color: #4c7a42"><b>CNY ￥30</b></span></p>
+                </li>
+            </ul>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <!--活动-->
+    <div id="activities">
+        <div id="activities-text">
+            <h2>为您的家里添加一丝生机</h2>
+            <p>现已推出满 CNY ￥90 免除运送费，满 CNY ￥70 可抽奖的活动，您可以现在去结账或者是去逛逛商店</p>
+        </div>
+        <div id="activities-buttons">
+            <button id="visit-store">逛逛商店</button>
+            <button id="goto-order-chart">立即抢购</button>
+        </div>
+    </div>
+
+</div>
+<!--满指定数额打折优惠栏-->
+<div id="sales-text">
+    <br><br><br>
+    <div id="MaterialYouBox">
+        <img id="ShoppingChart" src="images/cart-arrow-right.svg" alt=""/>
+    </div>
+    <br><br>
+    <h2>只需您达到满 CNY ￥90 即可为您免费送货~</h2>
+</div>
+
+<!--copyright-->
+<div class="copyright">
+    <p>(C) Copyright 2021.12 应用202 段志强的期末作业</p>
+</div>
+
+</body>
+</html>

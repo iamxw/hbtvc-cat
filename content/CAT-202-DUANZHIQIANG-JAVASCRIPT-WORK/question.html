@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷调查</title>
+    <link rel="stylesheet" href="styles/question.css">
+    <script src="scripts/question.js"></script>
+</head>
+<body>
+<!--头部-->
+<div id="header">
+    <div id="header-contents">
+        <div style="padding-top: 64px;padding-left: 64px">
+            <h2>调查问卷</h2>
+            <br><br>
+            <p>
+                我们希望以这种方式来改善您和其他客户的体验，在这里，您尽管吐槽，剩下的我们处理~
+            </p>
+            <br><br><br><br>
+            <a href="#q1">
+                <button id="run">进行</button>
+            </a>
+            <img style="position: absolute;display: inline-block;bottom: 90px;left: 900px;border-radius: 240px 240px 240px 0" src="images/question/question.webp" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+<!--问题序列-->
+<div id="q1">
+    <div style="width: 1140px;height: 220px;border-radius: 30px;background-color: #ffffff;margin-left: 50%;left: -570px;position: relative;margin-top: 24px;box-shadow: 1px 1px 10px #92a98c">
+        <h2 style="position: absolute;margin-top: 24px;margin-left: 32px">您在我们的商城浏览体验怎么样？</h2>
+        <form style="position: absolute;margin-top: 64px;margin-left: 32px">
+            <br><br>
+            <input type="radio" name="sex" value="good">&nbsp;好
+            <br><br>
+            <input type="radio" name="sex" value="bad">&nbsp;不好
+        </form>
+    </div>
+</div>
+
+<div id="q2">
+    <div style="width: 1140px;height: 280px;border-radius: 30px;background-color: #ffffff;margin-left: 50%;left: -570px;position: relative;margin-top: 24px;box-shadow: 1px 1px 10px #92a98c">
+        <h2 style="position: absolute;margin-top: 24px;margin-left: 32px">您在我们的商城喜欢买什么？（可多选）</h2>
+        <form style="position: absolute;margin-top: 64px;margin-left: 32px">
+            <br>
+            <input type="checkbox" name="sex" value="good">&nbsp;长青
+            <br><br>
+            <input type="checkbox" name="sex" value="bad">&nbsp;兰花
+            <br><br>
+            <input type="checkbox" name="sex" value="bad">&nbsp;菊花
+            <br><br>
+            <input type="checkbox" name="sex" value="bad">&nbsp;仙人掌
+        </form>
+    </div>
+</div>
+
+<div id="q3">
+    <div style="width: 1140px;height: 280px;border-radius: 30px;background-color: #ffffff;margin-left: 50%;left: -570px;position: relative;margin-top: 24px;box-shadow: 1px 1px 10px #92a98c">
+        <h2 style="position: absolute;margin-top: 24px;margin-left: 32px">您在我们的商城喜欢买什么？（可多选）</h2>
+        <form style="position: absolute;margin-top: 64px;margin-left: 32px">
+            <br>
+            <input type="checkbox" name="sex" value="good">&nbsp;长青
+            <br><br>
+            <input type="checkbox" name="sex" value="bad">&nbsp;兰花
+            <br><br>
+            <input type="checkbox" name="sex" value="bad">&nbsp;菊花
+            <br><br>
+            <input type="checkbox" name="sex" value="bad">&nbsp;仙人掌
+        </form>
+    </div>
+</div>
+
+<div id="q4">
+    <div style="width: 1140px;height: 280px;border-radius: 30px;background-color: #ffffff;margin-left: 50%;left: -570px;position: relative;margin-top: 24px;box-shadow: 1px 1px 10px #92a98c">
+        <h2 style="position: absolute;margin-top: 24px;margin-left: 32px">您在我们的商城喜欢买什么？（可多选）</h2>
+        <form style="position: absolute;margin-top: 64px;margin-left: 32px">
+            <br>
+            <input type="checkbox" name="sex" value="good">&nbsp;长青
+            <br><br>
+            <input type="checkbox" name="sex" value="bad">&nbsp;兰花
+            <br><br>
+            <input type="checkbox" name="sex" value="bad">&nbsp;菊花
+            <br><br>
+            <input type="checkbox" name="sex" value="bad">&nbsp;仙人掌
+        </form>
+    </div>
+</div>
+
+<div id="q5">
+    <div style="width: 1140px;height: 280px;border-radius: 30px;background-color: #ffffff;margin-left: 50%;left: -570px;position: relative;margin-top: 24px;box-shadow: 1px 1px 10px #92a98c">
+        <h2 style="position: absolute;margin-top: 24px;margin-left: 32px">准备好提交了吗？</h2>
+        <div class="login-header"><a id="link" href="javascript:;"><input  type="submit" id="submit"></a></div>
+    </div>
+</div>
+
+
+<div id="cprt" style="width: 100%;height: 120px;margin-top: 64px;text-align: center;background-color: #ccc;line-height: 120px"
+     class="mod_copyright">
+    <p class="mod_copyright_info">
+        地址：北京市昌平区建材城西路金燕龙办公楼一层 邮箱: zhanghj+itcast.cn 京ICP备08001421号京公网安备110108007702
+    </p>
+</div>
+
+<div class="slider-bar">
+    <span style="cursor: pointer" class="goBack">▲</span>
+</div>
+
+<!--模态框-->
+<div id="login" class="login">
+    <br><br><br><br>
+    <div id="title" class="login-title"><b>已提交到后台。我们会在日后联系您</b>
+<!--        <span><a id="closeBtn" href="javascript:void(0);" class="close-login">关闭</a></span>-->
+    </div>
+<!--    <div class="login-input-content">-->
+<!--        <div class="login-input">-->
+<!--            <label>用户名：</label>-->
+<!--            <input type="text" placeholder="请输入用户名" name="info[username]" id="username" class="list-input">-->
+<!--        </div>-->
+<!--        <div class="login-input">-->
+<!--            <label>登录密码：</label>-->
+<!--            <input type="password" placeholder="请输入登录密码" name="info[password]" id="password" class="list-input">-->
+<!--        </div>-->
+<!--    </div>-->
+    <div id="loginBtn" class="login-button"><a href="javascript:void(0);" id="login-button-submit">确定</a></div>
+    <!-- 遮盖层 -->
+    <div id="bg" class="login-bg"></div>
+</div>
+</body>
+</html>
