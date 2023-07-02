@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="河北旅院">
+    <meta name="keywords" content="旅院,编程">
+    <title>应用 202 段志强 - 自制网易云音乐首页</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="fonts/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="backbone">
+<!--搜索-->
+<div class="search-index">
+    <img src="favicon.ico" alt="">
+    <div class="search-index-box">
+        <i class="iconfont icon-search"></i>
+        <span>
+            <input style="background: none;overflow: hidden" type="text" placeholder="点击搜索">
+        </span>
+    </div>
+    <button id="search">搜索</button>
+</div>
+<!--广告条部分，焦点图-->
+<div class="banner">
+    <img id="scroll-img1" src="images/109951167296539106.jpg" alt="网易云音乐广告栏">
+    <img id="scroll-img2" src="images/OsfZOep76RlaezGKBP20sg==_109951167295874871.png" alt="网易云音乐广告栏2">
+</div>
+<!--本地导航栏-->
+<ul class="local-nav">
+    <li>
+        <a href="#">
+            <i class="local-nav-icon ico1"></i>
+            <span>每日推荐</span>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <i class="local-nav-icon ico2"></i>
+            <span>新歌抢先听</span>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <i class="local-nav-icon ico3"></i>
+            <span>私人电台</span>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <i class="local-nav-icon ico4"></i>
+            <span>热度排行榜</span>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <i class="local-nav-icon ico5"></i>
+            <span>数字专辑</span>
+        </a>
+    </li>
+</ul>
+
+<h2 class="Netease-cloud-music-hot-songs">云村热门歌曲<br></h2>
+
+<!--网易云热门歌曲-->
+<div class="box">
+    <div class="left">
+        <div class="left-content1">
+            <div class="dw1">
+                <img src="images/109951163201545762.jpg" alt="">
+                <a href="#">White Lies (Original Mix)</a>
+                <br>
+                <span>The Him</span>
+            </div>
+            <div class="dw2">
+                <img src="images/911.png" alt="">
+                <a href="https://music.163.com/#/song?id=1451649225">911</a>
+                <br>
+                <span>Lady Gaga</span>
+            </div>
+            <br>
+            <div class="dw1">
+                <img src="images/Touch.jpg" alt="">
+                <a href="#">Touch</a>
+                <br>
+                <span>The Him</span>
+            </div>
+            <div class="dw2">
+                <img src="images/trigger.jpg" alt="">
+                <a href="https://music.163.com/#/song?id=1398698380">Trigger</a>
+                <br>
+                <span>死亡搁浅游戏 BGM</span>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="right-content1">
+            <div class="dw1">
+                <img src="images/artpop.jpg" alt="">
+                <a href="#">ARTPOP</a>
+                <br>
+                <span>Lady Gaga</span>
+            </div>
+            <div class="dw2">
+                <img src="images/cyberpunk.jpg" alt="">
+                <a href="#">Night city</a>
+                <br>
+                <span>赛博朋克 2077 游戏 BGM</span>
+            </div>
+            <br>
+            <div class="dw1">
+                <img src="images/109951163201545762.jpg" alt="">
+                <a href="#">White Lies (Original Mix)</a>
+                <br>
+                <span>The Him</span>
+            </div>
+            <div class="dw2">
+                <img src="images/109951163571129660.jpg" alt="">
+                <a href="#">Haha</a>
+                <br>
+                <span>Kozah</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 id="new-song" class="Netease-cloud-music-hot-songs">独家 MV 放送<br></h2>
+
+<div id="box2" class="box">
+    <div class="left">
+        <div class="left-content1">
+            <div class="dw1">
+                <img style="background: url('images/MOVE-ON.jpg');background-size: 200px" class="MOVEON" id="MOVEON" alt="">
+                <a href="#">Moving On</a>
+                <br>
+                <span>Marshmello</span>
+            </div>
+            <div class="dw2">
+                <div class="dw2">
+                    <img id="WAP" style="background: url('images/WAP.jpg');background-size: 200px" alt="">
+                    <a href="#">WAP ( WET ASS PUSSY ) </a>
+                    <br>
+                    <span>Cardi B ( 别听，你会后悔的 )</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="right-content1">
+            <div class="dw1">
+                <img id="BurntRice" style="background: url('images/Burnt-Rice.jpg');background-size: 200px" alt="">
+                <a href="#">Burnt Rice</a>
+                <br>
+                <span>Shawn Wasabi</span>
+            </div>
+            <div class="dw2">
+                <img id="ПЛАКАЛА" style="background: url('images/ПЛАКАЛА.jpg');background-size: 200px" alt="">
+                <a href="https://music.163.com/#/song?id=1398698380">ПЛАКАЛА</a>
+                <br>
+                <span>KAZKA</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--版权-->
+<footer class="toolbox">
+    <div class="tool-group">
+        <a class="tool-link" href="#">
+            <i class="iconfont icon-custom-phone"></i>
+            <span>客服</span>
+        </a>
+        <a class="tool-link" href="#">
+            <i class="iconfont icon-download"></i>
+            <span>下载 App</span>
+        </a>
+        <a class="tool-link" href="#">
+            <i class="iconfont icon-language"></i>
+            <span>选择母语</span>
+        </a>
+    </div>
+
+    <div class="tool-ver">
+        <br>
+        <p>
+            <span style="font-family: 'Roboto',sans-serif">&copy;</span>
+            河北旅院，应用 202 段志强 <br><br>
+            这里我解释一下为什么超小屏不是一行两个<br>
+            第一，一行两个不好看<br>
+            第二，会下降操作准确度（或者操作精度）<br>
+            <b style="color: #0086b3">界面设计出来，是给人用的</b>，<br>
+            而不是用来<b style="color: #9f1a1a">纯粹用来观赏</b>的，
+            这么做是为了好看又易用
+            <br>
+            来自一位之前专门学过 UI 设计的学生的留言。
+            <br>
+            ▼打个小广告▼
+            <br>
+            <a href="https://marshmallowlands.github.io">
+                https://marshmallowlands.github.io
+            </a>
+            <br>
+            ▲我的博客，点击链接可跳转▲
+        </p>
+        <br><br><br>
+    </div>
+</footer>
+<!--底部导航-->
+<div class="tabbar">
+    <!--里面盒子直接用a标签来做-->
+    <a href="#" class="tabbar-box">
+        <span class="tabbar-icon shouye"></span>
+        <span>&nbsp;首页</span>
+    </a>
+    <a href="#" class="tabbar-box">
+        <span class="tabbar-icon shequ"></span>
+        <span>&nbsp;云村社区</span>
+    </a><a href="#" class="tabbar-box">
+    <span class="tabbar-icon xiaoxi"></span>
+    <span>&nbsp;消息</span>
+</a>
+    <a href="#" class="tabbar-box">
+        <span class="tabbar-icon aboutme"></span>
+        <span>&nbsp;我的</span>
+    </a>
+</div>
+
+</body>
+<script src="script/jquery-3.4.1.min.js"></script>
+<script>
+    $(function (){
+        $('#MOVEON').mouseenter(function (){
+            $(this).attr('src','images/func/play.png');
+            $(this).css('backdrop-filter','blur(20px)')
+        })
+        $('#MOVEON').mouseleave(function (){
+            $(this).attr('src','images/MOVE-ON.jpg');
+        })
+        $('#WAP').mouseenter(function (){
+            $(this).attr('src','images/func/play.png');
+            $(this).css('backdrop-filter','blur(20px)')
+        })
+        $('#WAP').mouseleave(function (){
+            $(this).attr('src','images/WAP.jpg');
+        })
+        $('#BurntRice').mouseenter(function (){
+            $(this).attr('src','images/func/play.png');
+            $(this).css('backdrop-filter','blur(20px)')
+        })
+        $('#BurntRice').mouseleave(function (){
+            $(this).attr('src','images/Burnt-Rice.jpg');
+        })
+        $('#ПЛАКАЛА').mouseenter(function (){
+            $(this).attr('src','images/func/play.png');
+            $(this).css('backdrop-filter','blur(20px)')
+        })
+        $('#ПЛАКАЛА').mouseleave(function (){
+            $(this).attr('src','images/ПЛАКАЛА.jpg');
+        })
+
+        //适合手机
+        $('#MOVEON').onmousedown(function (){
+            $(this).attr('src','images/func/play.png');
+            $(this).css('backdrop-filter','blur(20px)')
+        })
+        $('#MOVEON').onmouseup(function (){
+            $(this).attr('src','images/MOVE-ON.jpg');
+        })
+        $('#WAP').onmousedown(function (){
+            $(this).attr('src','images/func/play.png');
+            $(this).css('backdrop-filter','blur(20px)')
+        })
+        $('#WAP').onmouseup(function (){
+            $(this).attr('src','images/WAP.jpg');
+        })
+        $('#BurntRice').onmousedown(function (){
+            $(this).attr('src','images/func/play.png');
+            $(this).css('backdrop-filter','blur(20px)')
+        })
+        $('#BurntRice').onmouseup(function (){
+            $(this).attr('src','images/Burnt-Rice.jpg');
+        })
+        $('#ПЛАКАЛА').onmousedown(function (){
+            $(this).attr('src','images/func/play.png');
+            $(this).css('backdrop-filter','blur(20px)')
+        })
+        $('#ПЛАКАЛА').onmouseup(function (){
+            $(this).attr('src','images/ПЛАКАЛА.jpg');
+        })
+    })
+</script>
+</html>
