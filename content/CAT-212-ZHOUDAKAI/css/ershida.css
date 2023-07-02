@@ -1,0 +1,377 @@
+.navv {
+    position: relative;
+    width: 100%;
+    height: 457px;
+    /* background: url('../uploads/20da2.jpg'); */
+    background-size: 100% 380px;
+}
+
+.c-nav {
+    width: 100%;
+    height: 77px;
+    background: #A90804;
+    position: absolute;
+    /* left: 100px; */
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.nav_yj {
+    width: 1140px;
+    /* margin: 273px auto 0; */
+    /* margin-top: 273px; */
+    height: 77px;
+}
+
+.nav_yj li {
+    float: left;
+    display: inline;
+    text-align: center;
+    line-height: 77px;
+    position: relative;
+    /* z-index: 999; */
+}
+
+.nav_yj li a {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    padding: 0 55px;
+}
+
+.c-nav li a:hover {
+    background: #bf100d;
+}
+
+.cloud {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 83px;
+    height: 42px;
+    background: url(../images/gezi.png) no-repeat;
+    background-size: 83px 42px;
+    /* z-index: 2; */
+}
+
+
+/* 2 */
+
+.main {
+    /* position: relative; */
+    width: 100%;
+    height: 442px;
+}
+
+.center {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    /* background: #eea111; */
+}
+
+.item_th {
+    background: url(../uploads/cpc20_bg1.png) 0 0 no-repeat;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    /* float: left; */
+}
+
+ul {
+    /* float: left; */
+}
+
+.f1 {
+    float: left;
+}
+
+.f2 {
+    float: left;
+}
+
+.item_th_2 {
+    margin-left: 50px;
+    background: url(../uploads/cpc20_bg1.png) 0 0 no-repeat;
+    height: 45px;
+    width: 575px;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    /* float: right; */
+}
+
+.item_th_2 p span {
+    float: left;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    font-size: 22px;
+    margin-right: 10px;
+    font-weight: bold;
+    padding-left: 22px;
+}
+
+.qqq {
+    float: left;
+    width: 200px;
+}
+
+.item_th p span {
+    /* float: left; */
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 22px;
+    font-size: 22px;
+    /* font-weight: bold; */
+    margin-right: 10px;
+}
+
+.qw {
+    float: left;
+    width: 575px;
+    height: 545px;
+    /* background: #A90804; */
+    position: relative;
+    top: 28px;
+    left: 50px;
+}
+
+.qw li {
+    height: 56px;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 5px;
+    color: #333;
+    /* border: 1px solid aqua; */
+}
+
+.qw li:hover {
+    background: #cc1916;
+    color: #fff;
+}
+
+.Banner {
+    float: left;
+    width: 575px;
+    height: 352px;
+    margin-top: 28px;
+    /* overflow: hidden; */
+}
+
+.more {
+    float: right;
+    color: #666;
+    font-size: 15px;
+    margin-right: 3px;
+    font-weight: normal;
+}
+
+
+/* 3 */
+
+.cl_2 {
+    width: 1200px;
+}
+
+.cl_2 img {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.footer {
+    margin-top: 20px;
+    background: #BF100D;
+}
+
+
+/* 小点——开始 */
+
+.xiaodian {
+    width: 1200px;
+    height: 90px;
+}
+
+.xiaodian .weizhi {
+    /* margin: 0px auto; */
+    text-align: center;
+    width: 1200px;
+    height: 90px;
+    line-height: 90px;
+}
+
+.xiaodian span {
+    margin: 10px;
+}
+
+.xiaodian .span1 {
+    padding: 5px;
+    background: rgb(199, 37, 34);
+    color: #fff;
+}
+
+.xiaodian .span2 {
+    padding: 5px;
+    background: rgb(255, 233, 233);
+    border: 1px solid rgb(199, 37, 34);
+    color: rgb(199, 37, 34);
+}
+
+.xiaodian .span3 {
+    padding: 5px;
+    background: rgb(199, 37, 34);
+    color: #fff;
+}
+
+
+/* 小点——结束 */
+
+
+/* 放大镜开始 */
+
+.Banner .flexslider {
+    width: 100%;
+    background: #fff;
+}
+
+.img1 {
+    /* display: block; */
+    width: 500px;
+    height: 500px;
+}
+
+.Banner .xdd {
+    position: relative;
+    /* left: 5%; */
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 500px;
+    /* margin-top: 1040px; */
+}
+
+
+/* .Banner .flexslider .xdd img {
+     width: 100%;
+    height: 352px; 
+} */
+
+.mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(199, 37, 34, 0.575);
+    opacity: .5;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.big {
+    display: none;
+    position: absolute;
+    left: 520px;
+    top: 0;
+    width: 600px;
+    height: 600px;
+    /* background-color: pink; */
+    z-index: 999;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.bigImg {
+    /* display: inline-block; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150%;
+    height: 150%;
+    /* z-index: 2; */
+}
+
+
+/* 轮播开始  */
+
+.focus {
+    position: relative;
+    width: 1500px;
+    height: 380px;
+    /* background-color: purple; */
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.focus ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600%;
+    height: 500px;
+}
+
+.focus ul li {
+    /* position: absolute; */
+    float: left;
+    height: 500px;
+}
+
+.focus ul li img {
+    width: 1500px;
+    height: 500px;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    /* margin: 0 auto; */
+}
+
+.circle li {
+    float: left;
+    width: 500px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 0.1px solid rgba(255, 255, 255, 0.041);
+    margin: 0 0px;
+    /* border-radius: 10px 10px; */
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: rgb(255, 0, 0);
+}
+
+
+/* 轮播结束 */

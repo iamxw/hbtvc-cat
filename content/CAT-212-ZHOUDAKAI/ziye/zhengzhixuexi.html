@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <title>河北旅游职业学院</title>
+    <meta name='description' content="应用212 周大开 第二学期期末项目">
+    <meta name="keywords" content="门户网站">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/zhengzhixuexi.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+</head>
+
+<body>
+    <!-- 头部部分 开始-->
+    <div class="header">
+        <div class="nav">
+            <div class="container">
+                <ul class="ul1">
+                    <li><span></span><a href=""> 教职工</a></li>
+                    <li><span></span><a href=""> 学生</a></li>
+                    <li><span></span><a href=""> 校友</a></li>
+                    <li><span></span><a href=""> 足迹</a></li>
+                    <li><span></span><a href=""> 招聘</a></li>
+                </ul>
+                <form action="">
+                    <a href=""><img src="../images/search.png" alt="" class="img1"></a>
+                    <input type="search" name="" id="" value="请输入关键字搜索" class="input_1">
+                    <script>
+                        var text = document.querySelector('.input_1');
+                        text.onfocus = function() {
+                            if (this.value == '请输入关键字搜索') {
+                                this.value = '';
+                            }
+                            this.style.color = '#fefef'
+                        }
+                        text.onblur = function() {
+                            if (this.value == '') {
+                                this.value = '请输入关键字搜索';
+                            }
+                            this.style.color = 'aqua'
+                        }
+                    </script>
+                </form>
+
+            </div>
+
+        </div>
+        <img src="../images/zhankai.png" alt="" class="img2">
+        <!-- <div class="img_2_doc">
+            周大开第二学期期末作品
+            <p>点击右上角浏览</p>
+        </div> -->
+        <!-- JS 点击显示隐藏开始 -->
+        <!-- <script>
+            var box = document.querySelector('.img_2_doc');
+            var btn = document.querySelector('.img2');
+            var flag = 1;
+            btn.onclick = function() {
+                //点击一次之后，flag要变化
+                if (flag == 1) {
+                    box.style.display = 'none';
+                    flag = 0;
+                } else {
+                    box.style.display = 'block';
+                    flag = 1;
+                }
+            }
+        </script> -->
+        <!-- JS 点击显示隐藏开始 -->
+
+        <!-- 渐变 开始 -->
+        <div class="nav2">
+            <div class="log container">
+                <img src="../images/tlogo.png" alt="" class="img3">
+                <ul class="ul2">
+                    <li><a href="../index.html">首页</a> </li>
+
+                    <li><a href="">学校概况</a><span></span>
+                        <div class="text_1">
+                            <p><a href="./xuexiaojianjie.html">学校简介</a> </p>
+                            <p><a href="./jisuanjizhaosheng.html">计算机招生</a> </p>
+                            <p><a href="">学校领导</a> </p>
+                            <p><a href="">管理机构</a> </p>
+                        </div>
+                    </li>
+
+                    <li><a href="">党群工作</a><span></span>
+                        <div class="text_2">
+                            <p><a href="">综合新闻</a> </p>
+                            <p><a href="">党史教育</a> </p>
+
+                        </div>
+                    </li>
+                    <li><a href="">科学研究</a><span></span>
+                        <div class="text_3">
+                            <p><a href="">科学调研</a> </p>
+
+                        </div>
+                    </li>
+                    <li><a href="./liuyan.html">留言板</a> </li>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+        <!-- 渐变 结束 -->
+
+    </div>
+    <!-- 头部部分 结束-->
+    <!-- banner 开始 -->
+
+    <div class="banner_img">
+
+    </div>
+
+    <!-- banner 结束 -->
+    <!-- 内容 开始 -->
+    <div class="neirong container">
+        <div class="button_po">
+            <button class="butt">显示当前系统时间</button>
+            <div class="mmmmm">显示区域</div>
+        </div>
+        <script>
+            // 当我们点击了按钮，div里面的文字会发生变化
+            var btn = document.querySelector('.butt');
+            var divs = document.querySelector('.mmmmm');
+            btn.onclick = function() {
+                divs.innerHTML = getDate();
+            }
+
+            function getDate() {
+                // 2022 年 月 日 星期 
+                var date = new Date();
+                var year = date.getFullYear();
+                var month = date.getMonth() + 1;
+                var dates = date.getDate();
+                var arr = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+                var day = date.getDay();
+                return '今天是' + year + '年' + month + '月' + dates + '日' + arr[day];
+            }
+        </script>
+        <div>
+            <h2>综合新闻
+                <h3> COMPREHENSIVE NEWS</h3>
+            </h2>
+        </div>
+        <div class="left">
+            <div class="d_1">
+                <img src="../uploads/qq1.jpg" alt="">
+
+            </div>
+            <div class="d_2">
+                <img src="../uploads/qq4.jpg" alt="">
+
+            </div>
+        </div>
+        <div class="right">
+            <ul>
+                <a href="">
+                    <li>
+
+                        <div class="back"></div>
+                        <div class="text">《中华人民共和国职业教育法》
+                            <p>2022-6-3</p>
+                        </div>
+
+                    </li>
+                </a>
+                <a href=""></a>
+                <li>
+                    <div class="back"></div>
+                    <div class="text">《加快建设科技强国，实现高水平科技自立自强》
+                        <p>2022-6-3</p>
+                    </div>
+
+                </li>
+                <a href="">
+                    <li>
+                        <div class="back"></div>
+                        <div class="text">习近平：在庆祝中国共产主义青年团成立100周年大会上的讲话
+                            <p>2022-6-3</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <div class="back"></div>
+                        <div class="text">河北旅游职业学院 2022年5月份 政治理论学习安排
+                            <p>2022-6-3</p>
+                        </div>
+
+
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <div class="back"></div>
+                        <div class="text">《习近平法治思想学习纲要》
+                            <p>2022-6-3</p>
+                        </div>
+
+
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <div class="back"></div>
+                        <div class="text">坚持把解决好“三农”问题作为全党工作重中之重
+                            <p>2022-6-3</p>
+                        </div>
+
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <div class="back"></div>
+                        <div class="text">河北旅游职业学院 2022年4月份 政治理论学习安排
+                            <p>2022-6-3</p>
+                        </div>
+
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        <div class="back"></div>
+                        <div class="text">河北旅游职业学院 2022年3月份 政治理论学习安排
+                            <p>2022-6-3</p>
+                        </div>
+
+                    </li>
+                </a>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 内容 结束 -->
+    <!-- 页脚 开始 -->
+    <div class="footer">
+        <div class="footer_1 container">
+            <div class="img_1"><img src="../images/tlogo.png" alt=""></div>
+            <a href="">
+                <div class="yvan_1">
+                    <div class="iconfont icon-weixin"></div>
+
+                </div>
+                <div class="yvan_2">
+                    <div class="iconfont icon-weibo"></div>
+
+                </div>
+                <div class="yvan_3">
+                    <div class="iconfont icon-QQ"></div>
+
+                </div>
+                <div class="yvan_4">
+
+                    <div class="iconfont icon-QQkongjian"></div>
+                </div>
+
+            </a>
+            <div class="text_zdk">分享至：</div>
+            <div class="text_zdk_1"> 地址：中国·河北省承德市高教园区 邮编：067000 冀ICP备07009156号 冀公网安备 13080202000462号 应用212 周大开 大一下学期期末作品</div>
+        </div>
+
+    </div>
+    <!-- 页脚 结束 -->
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("../lib/fonts/Inter-roman.ttf");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Han Sans SC VF';
+    src: url("../lib/fonts/SourceHanSansSC-VF.ttf");
+    font-weight: 350 900;
+}
+
+* {
+    font-family: 'Inter', 'Source Han Sans SC VF', sans-serif;
+}
+
+body{
+    background: #1f1f1f;
+}
+.text-danger{
+    display: flex;
+    justify-content: center;
+}
+.text-danger img{
+    width: 180px;
+    height: 120px;
+    text-align: center;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-group .form-control{
+    width: 50%;
+    background: #1f1f1f;
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    border-radius: 100vh;
+}
+.form-check-label{
+    color:#ffffff;
+}
+.mm{
+    display: flex;
+    position: relative;
+}
+.mm img{
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 27%;
+    cursor: pointer;
+}
