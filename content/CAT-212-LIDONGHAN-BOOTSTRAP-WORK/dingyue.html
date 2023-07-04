@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>李东韩的花店</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://zhouql.vip/cdn/css/szgotop.css" />
+    <link rel="stylesheet" href="./css/dingyue.css">
+</head>
+
+<body style="height: 2000px;">
+    <!-- 导航部分 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white daohang">
+        <a class="navbar-brand logo" href="#">Flower Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto biaoti">
+                <li class="nav-item active ">
+                    <a class="nav-link text-secondary " href="#">订阅鲜花 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-secondary" href="./index.html">店铺注语 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-secondary " href="./index.html">鲜花卡卷 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-secondary" href="./index.html">鲜花评价 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-secondary" href="./biaodan.html">客户留言 <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="请输入搜索内容" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+                <div>&nbsp; &nbsp;</div>
+                <!-- Button trigger modal -->
+                <button type="button" id="zhezhao" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal">
+                   更多
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">更多店铺信息添加商家微信</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="./images/微信图片_20230616161015.jpg" width="100%" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- 导航部分 -->
+    <!-- 头部 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 dytb">
+                <!-- <img src="./images/订阅.jpg" width="100%" alt=""> -->
+                <div class="a">
+                    <div class="b"></div>
+                    <div class="c"></div>
+                    <div class="d"></div>
+                    <div class="e"></div>
+                    <p class="f">Flower Shop</p>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div>
+                    <p>所有分类&nbsp;&nbsp;&nbsp;&nbsp;<span>鲜花</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>绿植</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>盆栽</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>花束</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>花瓶</span></p>
+                    <p>鲜花品种&nbsp;&nbsp;&nbsp;&nbsp;<span>玫瑰</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>郁金香</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>满天星</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>向日葵</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>睡莲</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>跳舞兰</span></p>
+                    <p>绿植品种&nbsp;&nbsp;&nbsp;&nbsp;<span>薄荷</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>绿萝</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>栀子花</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>茉莉花</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>吊兰</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>驱蚊草</span></p>
+                    <p>花盆样式&nbsp;&nbsp;&nbsp;&nbsp;<span>小盆</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>中盆</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>大盆</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 头部 -->
+    <!-- 商品展位 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/高档玫瑰花.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">高档玫瑰花束假花仿真花...</p>
+                        <h4>$89.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/香玫瑰.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">刘亦菲同款手捧花香玫瑰...</p>
+                        <h4>$49.99</h4>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/跳舞兰.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">黄色跳舞兰家用摆件超好看...</p>
+                        <h4>$19.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/荔枝玫瑰花.png" height="254px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">荔枝玫瑰花假花摆设餐...</p>
+                        <h4>$12.99</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row bj">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/睡莲.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">睡莲紫色居家摆设好看...</p>
+                        <h4>$89.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/珈由列.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">珈由列居家摆设好看...</p>
+                        <h4>$49.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/玫瑰花.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">轻奢高档玫瑰花南十字...</p>
+                        <h4>$39.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/杜丹.png" height="254px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">山东芍药鲜花油画杜丹...</p>
+                        <h4>$69.99</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/高档玫瑰花.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">高档玫瑰花束假花仿真花...</p>
+                        <h4>$89.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/香玫瑰.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">刘亦菲同款手捧花香玫瑰...</p>
+                        <h4>$49.99</h4>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/跳舞兰.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">黄色跳舞兰家用摆件超好看...</p>
+                        <h4>$19.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/荔枝玫瑰花.png" height="254px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">荔枝玫瑰花假花摆设餐...</p>
+                        <h4>$12.99</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row bj">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/睡莲.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">睡莲紫色居家摆设好看...</p>
+                        <h4>$89.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/珈由列.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">珈由列居家摆设好看...</p>
+                        <h4>$49.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/玫瑰花.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">轻奢高档玫瑰花南十字...</p>
+                        <h4>$39.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/杜丹.png" height="254px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">山东芍药鲜花油画杜丹...</p>
+                        <h4>$69.99</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/高档玫瑰花.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">高档玫瑰花束假花仿真花...</p>
+                        <h4>$89.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/香玫瑰.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">刘亦菲同款手捧花香玫瑰...</p>
+                        <h4>$49.99</h4>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/跳舞兰.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">黄色跳舞兰家用摆件超好看...</p>
+                        <h4>$19.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/荔枝玫瑰花.png" height="254px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">荔枝玫瑰花假花摆设餐...</p>
+                        <h4>$12.99</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row bj">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/睡莲.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">睡莲紫色居家摆设好看...</p>
+                        <h4>$89.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/珈由列.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">珈由列居家摆设好看...</p>
+                        <h4>$49.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/玫瑰花.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">轻奢高档玫瑰花南十字...</p>
+                        <h4>$39.99</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card">
+                    <img src="./images/杜丹.png" height="254px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">山东芍药鲜花油画杜丹...</p>
+                        <h4>$69.99</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 商品展位 -->
+
+    <!-- 底部 -->
+    <div class="container dibu">
+        <div class="row">
+            <div class="col-sm-3 col-6 text-center">
+                <h4>购物指南</h4>
+                <p>免费注册</p>
+                <p>开通支付宝</p>
+                <p>支付宝充值</p>
+            </div>
+            <div class="col-sm-3 col-6 text-center">
+                <h4>天猫保障</h4>
+                <p>发票保障</p>
+                <p>售后规则</p>
+                <p>物流时效保障</p>
+            </div>
+            <div class="col-sm-3 col-6 text-center">
+                <h4>支付方式</h4>
+                <p>快捷支付</p>
+                <p>信用卡</p>
+                <p>余额宝</p>
+            </div>
+            <div class="col-sm-3 col-6 text-center">
+                <h4>商家服务</h4>
+                <p>天猫规则</p>
+                <p>商家入驻</p>
+                <p>商家中心</p>
+            </div>
+            <div class="col-sm-12  text-center">
+                <hr> 本作品由河北旅游职业学院信工学院应用212班李东韩制作
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -900px;"></div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="http://zhouql.vip/cdn/szgotop.js"></script>
+    <script src="./lib/bootstrap/js/jquery.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

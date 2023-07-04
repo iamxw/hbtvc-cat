@@ -1,0 +1,409 @@
+/* 导航部分 */
+
+.w {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.daohang {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0px 0px 10px gray;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+.biaoti {
+    margin: 0 auto;
+}
+
+
+/* 导航部分 */
+
+
+/* 轮播图部分 */
+
+#carouselExampleIndicators {
+    margin-top: 74px;
+}
+
+
+/* 轮播图部分 */
+
+
+/* 店铺注语 */
+
+.dpbt {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 219, 231, 0.425);
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.about .row .video-container {
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+.about .row .video-container video {
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .row .video-container h3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.5rem;
+    background: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.about .row .content {
+    flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.about .row .content p {
+    font-size: 1rem;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+
+/* 店铺注语 */
+
+
+/* 图标板块 */
+
+.tbyouce {
+    width: 100%;
+    height: 100%;
+    /* border: solid 1px rgb(189, 189, 189); */
+    /* border-radius: 5px; */
+    margin-top: 20px;
+    /* box-shadow: 5px 5px 10px 2px rgba(128, 128, 128, 0.144); */
+}
+
+.tbyouce div {
+    margin: 10px;
+}
+
+.tbyouce p {
+    color: #999;
+}
+
+
+/* 图标板块 */
+
+
+/* 鲜花卡卷 */
+
+.box {
+    width: 100%;
+    height: 430px;
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(128, 128, 128, 0.144);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image img {
+    width: 80%;
+    transition: all 0.6s;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
+
+
+/* 鲜花卡卷 */
+
+
+/* 鲜花评价 */
+
+.box1 {
+    width: 100%;
+    height: 310px;
+    border: solid 1px rgb(189, 189, 189);
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(128, 128, 128, 0.144);
+}
+
+.xing {
+    margin-left: 14px;
+    margin-top: 26px;
+}
+
+.xing img {
+    width: 20px;
+}
+
+.pingjia {
+    margin-left: 14px;
+    margin-top: 26px;
+    margin-right: 16px;
+}
+
+.yonghu {
+    margin-left: 14px;
+}
+
+.yonghu img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.yonghu span {
+    font-size: 30px;
+}
+
+
+/* 鲜花评价 */
+
+
+/* 底部 */
+
+.dibu {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* 底部 */
+
+
+/* 表单部分 */
+
+.biaodan {
+    margin-top: 100px;
+}
+
+.anniu {
+    width: 100px;
+    color: #333;
+    background-color: rgba(255, 219, 231, 0.425);
+    border: solid 1px rgb(189, 189, 189);
+}
+
+
+/* 表单部分 */
+
+
+/* 多重标签特效部分 */
+
+.tx {
+    height: 430px;
+}
+
+:root {
+    --fontColor: #ffc0cb;
+    --one1: #bd7be8;
+    --one2: #8063e1;
+    --two1: #7f94fc;
+    --two2: #3f58e3;
+    --three1: #21bbfe;
+    --three2: #2c6fd1;
+    --four1: #415197;
+    --four2: #352f64;
+    --levelShadow: #22325480;
+}
+
+.levels {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -140px;
+    margin-top: -90px;
+    transform-style: preserve-3d;
+    user-select: none;
+}
+
+.levels .level {
+    width: 280px;
+    height: 140px;
+    border-radius: 12px;
+    color: var(--fontColor);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    transform: rotateX(45deg) rotateY(-15deg) rotate(45deg);
+    opacity: 0.9;
+    margin-top: -70px;
+}
+
+.levels .level.one {
+    background: linear-gradient(135deg, var(--one1), var(--one2));
+    box-shadow: 20px 20px 60px var(--levelShadow), 1px 1px 0px 1px var(--one2);
+    z-index: 4;
+}
+
+.levels .level.two {
+    background: linear-gradient(135deg, var(--two1), var(--two2));
+    box-shadow: 20px 20px 60px var(--levelShadow), 1px 1px 0px 1px var(--two2);
+    z-index: 3;
+}
+
+.levels .level.three {
+    background-image: linear-gradient(135deg, var(--three1), var(--three2));
+    box-shadow: 20px 20px 60px var(--levelShadow), 1px 1px 0px 1px var(--three2);
+    z-index: 2;
+}
+
+.levels .level.four {
+    background-image: linear-gradient(135deg, var(--four1), var(--four2));
+    box-shadow: 20px 20px 60px var(--levelShadow), 1px 1px 0px 1px var(--four2);
+    z-index: 1;
+}
+
+.levels .level .title {
+    position: absolute;
+    top: 28px;
+    left: 15px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.levels .level .content {
+    position: absolute;
+    font-weight: 700;
+    bottom: 15px;
+    left: 15px;
+    font-size: 16px;
+}
+
+.levels .level:hover {
+    transform: rotateX(30deg) rotateY(-15deg) rotate(30deg) translate(-25px, 50px);
+    opacity: 0.6;
+}
+
+.levels .level:hover:after {
+    transform: translateX(100%);
+    transition: all 1.2s ease-in-out;
+}
+
+.levels .level::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    background: linear-gradient(60deg, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 80%);
+}
+
+
+/* 多重标签特效部分 */
+
+
+/* 幻灯片条标题特效 */
+
+.slide-bar {
+    position: relative;
+    color: transparent;
+    animation: fill-text-white 2s 1.6s forwards;
+}
+
+.slide-bar::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 219, 231, 0.425);
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: slide-in-out 2s cubic-bezier(0.75, 0, 0, 1) forwards;
+}
+
+@keyframes slide-in-out {
+    50% {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    50.1% {
+        transform-origin: right;
+    }
+    100% {
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+}
+
+@keyframes fill-text-white {
+    to {
+        color: rgb(39, 39, 39);
+    }
+}
+
+
+/* 幻灯片条标题特效 */
+
+
+/* 订阅子页 */
+
+
+/* 头部 */
+
+.dytb {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    position: relative;
+    height: 600px;
+}
+
+.bj {
+    margin-top: 10px;
+}
+
+
+/* 头部 */
+
+
+/* 订阅子页 */
+
+
+/* 表单子页 */
+
+
+/* 表单子页 */

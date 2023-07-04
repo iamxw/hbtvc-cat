@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>李东韩的花店</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/biaodan.css">
+
+</head>
+
+<body>
+    <!-- 导航部分 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white daohang">
+        <a class="navbar-brand logo" href="#">Flower Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto biaoti">
+                <li class="nav-item active ">
+                    <a class="nav-link text-secondary " href="./dingyue.html">订阅鲜花 <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-secondary" href="./index.html">店铺注语 <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-secondary " href="./index.html">鲜花卡卷 <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-secondary" href="./index.html">鲜花评价 <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-secondary" href="./index.html">客户留言 <span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="请输入搜索内容" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+                <div>&nbsp; &nbsp;</div>
+                <!-- Button trigger modal -->
+                <button type="button" id="zhezhao" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal">
+                   更多
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">更多店铺信息添加商家微信</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="./images/微信图片_20230616161015.jpg" width="100%" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- 导航部分 -->
+    <!-- 精选展示部分 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="dpbt dpbt1">
+                    <h2 class="text-center">精选展示</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 xiangqingkapian">
+                <!-- 名片分三大块 最外层的一块a 文字一大块b 平面圆柱一块c -->
+                <div class="a">
+                    <div class="b">
+                        <a href="#">玫瑰花</a>
+                        <h2>玫瑰无原则，心动至上</h2>
+                        <span>握不到你的手，但感觉到你的温柔  看不到你的脸，但能想起你笑容<br> 想见你，却是经常在梦中，想说爱你 却只能在心里!此时此刻，真的好想你。<br>如果你想要轰轰烈烈，我会给你海誓山盟;如果你想要细水长流，我会给你朝朝暮暮<br>只要你想，只要你要，只要我有，只要我能。亲爱的，嫁给我，我许你一生幸福。</span>
+                    </div>
+                    <div class="c xp">
+                        <!-- --i是用来计算平面圆柱的动效延迟和距离的 --w则是用来计算平面圆柱的宽度 -->
+                        <div class="d" style="--i:1;--w:1.5"></div>
+                        <div class="d" style="--i:2;--w:1.6"></div>
+                        <div class="d" style="--i:3;--w:1.4"></div>
+                        <div class="d" style="--i:4;--w:1.7"></div>
+                        <div class="e" style="--i:1"></div>
+                    </div>
+                    <!-- 设置二维码 -->
+                    <div class="f"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 xiangqingkapian">
+                <!-- 名片分三大块 最外层的一块a 文字一大块b 平面圆柱一块c -->
+                <div class="a" style="background-color: rgb(236, 193, 52) ">
+                    <div class="b">
+                        <a href="#">玫瑰花束</a>
+                        <h2>玫瑰无原则，心动至上</h2>
+                        <span>最好的酒也许不是最贵的那瓶，因为买到酒买不到心情。<br>最好的朋友也许不是联络最多的，而是在特别的日子里记得你的人!最难忘的是你的微笑<br>当它绽开在你的脸上时，我仿佛感到拂过一阵春风，暖融融的，把我的心都溶化了。<br>一个机缘认识你，两次见面留意你，三番四次约会你，七上八落挂念你，九成应是喜欢你<br>十分肯定我爱你。情人节快乐!</span>
+                    </div>
+                    <div class="c xp">
+                        <!-- --i是用来计算平面圆柱的动效延迟和距离的 --w则是用来计算平面圆柱的宽度 -->
+                        <div class="d" style="--i:1;--w:1.5"></div>
+                        <div class="d" style="--i:2;--w:1.6"></div>
+                        <div class="d" style="--i:3;--w:1.4"></div>
+                        <div class="d" style="--i:4;--w:1.7"></div>
+                        <div class="e" style="--i:1"></div>
+                    </div>
+                    <!-- 设置二维码 -->
+                    <div class="f1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 xiangqingkapian">
+                <!-- 名片分三大块 最外层的一块a 文字一大块b 平面圆柱一块c -->
+                <div class="a" style="background-color:rgb(228, 143, 211)">
+                    <div class="b">
+                        <a href="#">荔枝玫瑰花</a>
+                        <h2>玫瑰无原则，心动至上</h2>
+                        <span>不求我们的爱有多么轰轰烈烈，不求我们的爱有多么缠绵悱恻<br>不求我们的爱还有来世三生，只愿此生我们的爱平平淡淡，携手相伴一生<br>点击你的倩影，选中你的微笑，复制你的娇羞，粘贴你的美好，删除你的烦恼，保存你的拥抱<br>情人节，愿你幸福快乐不停歇!</span>
+                    </div>
+                    <div class="c xp">
+                        <!-- --i是用来计算平面圆柱的动效延迟和距离的 --w则是用来计算平面圆柱的宽度 -->
+                        <div class="d" style="--i:1;--w:1.5"></div>
+                        <div class="d" style="--i:2;--w:1.6"></div>
+                        <div class="d" style="--i:3;--w:1.4"></div>
+                        <div class="d" style="--i:4;--w:1.7"></div>
+                        <div class="e" style="--i:1"></div>
+                    </div>
+                    <!-- 设置二维码 -->
+                    <div class="f2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 精选展示部分 -->
+
+    <!-- 表单部分 -->
+    <div class="container biaodan">
+        <div class="row">
+            <div class="col-sm-6">
+                <div>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">邮箱</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">留言原因</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>商品好</option>
+                                <option>价格便宜</option>
+                                <option>客服服务好</option>
+                                <option>物流问题</option>
+                                <option>质量问题</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary anniu ">提交</button>
+                        <button type="button" class="btn btn-primary anniu "><a href="./bdk.html" class="text-warning">留言信封</a></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">精美图片</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">精美图片</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">精美图片</button>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="card">
+                            <img src="./images/167802.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">粉嫩桃花</h5>
+                                <p class="card-text">一朵桃花，能喜能忧，能爱能恨，一朵桃花，看似简单，却何其复杂。才到书卷抬头，却见桃花已挂心头</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                        <div class="card">
+                            <img src="./images/166719.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">阳光向日葵</h5>
+                                <p class="card-text">田野里，一片片黄橙橙，金灿灿，鎏金溢彩，耀眼夺目；高高的杆顶着圆圆的葵花，冲着太阳微微点头，花盘上，唱着蜂，舞的蝴蝶，飞的蜻蜓，千姿百态，妩媚动人</p>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+                        <img src="./images/168529.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">唯美杏花</h5>
+                            <p class="card-text">杏花的花瓣有四五片，花瓣润泽透明，像是用琥珀或玉石雕刻而成，很有冰清玉洁的韵致，花蕊是嫩黄色的，就像一颗颗繁星正在向我调皮的眨着眼睛呢</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 表单部分 -->
+
+
+    <!-- 底部 -->
+    <div class="container dibu">
+        <div class="row">
+            <div class="col-sm-3 col-6 text-center">
+                <h4>购物指南</h4>
+                <p>免费注册</p>
+                <p>开通支付宝</p>
+                <p>支付宝充值</p>
+            </div>
+            <div class="col-sm-3 col-6 text-center">
+                <h4>天猫保障</h4>
+                <p>发票保障</p>
+                <p>售后规则</p>
+                <p>物流时效保障</p>
+            </div>
+            <div class="col-sm-3 col-6 text-center">
+                <h4>支付方式</h4>
+                <p>快捷支付</p>
+                <p>信用卡</p>
+                <p>余额宝</p>
+            </div>
+            <div class="col-sm-3 col-6 text-center">
+                <h4>商家服务</h4>
+                <p>天猫规则</p>
+                <p>商家入驻</p>
+                <p>商家中心</p>
+            </div>
+            <div class="col-sm-12  text-center">
+                <hr> 本作品由河北旅游职业学院信工学院应用212班李东韩制作
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <script src="./lib/bootstrap/js/jquery.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
